@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LNVideoModule_Example' do
+  pod 'LNVideoModule', :path => '../'
+
+  target 'LNVideoModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
