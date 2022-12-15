@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "LNVideoMediatorDelegate.h"
 #import "LNVideoModule.h"
+#import "LNVideoMediatorDelegate.h"
 #import "LNVideoModuleConfig.h"
 #import "LNVideoTableViewCell.h"
 #import "LNVideoModel.h"
