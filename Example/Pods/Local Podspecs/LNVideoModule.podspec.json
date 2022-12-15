@@ -1,0 +1,82 @@
+{
+  "name": "LNVideoModule",
+  "version": "0.1.0",
+  "summary": "A short description of LNVideoModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongjianxiong/LNVideoModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongjianxiong": "jianxiong20090919@126.com"
+  },
+  "source": {
+    "git": "https://github.com/dongjianxiong/LNVideoModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LNVideoModule/Classes/**/*",
+  "public_header_files": "LNVideoModule/Classes/*.h",
+  "dependencies": {
+    "LNModuleProtocol": [
+
+    ],
+    "LNCommonKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Network",
+      "source_files": "LNVideoModule/Classes/Network/**/*",
+      "public_header_files": "LNVideoModule/Classes/Network/*.h"
+    },
+    {
+      "name": "Base",
+      "source_files": "LNVideoModule/Classes/Base/**/*",
+      "public_header_files": "LNVideoModule/Classes/Base/*.h",
+      "dependencies": {
+        "LNVideoModule/Network": [
+
+        ],
+        "MJRefresh": [
+
+        ],
+        "SDWebImage": [
+
+        ],
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "Feature",
+      "source_files": "LNVideoModule/Classes/Feature/**/*.{h,m}",
+      "public_header_files": "LNVideoModule/Classes/Feature/**/*.h",
+      "resource_bundles": {
+        "LNVideoModule": [
+          "LNVideoModule/Classes/Feature/**/*.xib",
+          "LNVideoModule/Classes/**/*.{png,jpg,jpeg}"
+        ]
+      },
+      "dependencies": {
+        "LNVideoModule/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "LNVideoModule/Classes/Mediator/**/*",
+      "dependencies": {
+        "LNVideoModule/Feature": [
+
+        ]
+      }
+    }
+  ]
+}
