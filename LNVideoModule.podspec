@@ -33,26 +33,14 @@ TODO: Add long description of the pod here.
   s.source_files = 'LNVideoModule/Classes/**/*'
   s.public_header_files = 'LNVideoModule/Classes/*.h'
   
+  s.subspec 'Common' do |com|
+    com.source_files = 'LNVideoModule/Classes/Common/**/*'
+    com.public_header_files = 'LNVideoModule/Classes/Common/*.h'
+  end
+  
   s.subspec 'Network' do |network|
     network.source_files = 'LNVideoModule/Classes/Network/**/*'
     network.public_header_files = 'LNVideoModule/Classes/Network/*.h'
-  end
-  
-  s.subspec 'Base' do |base|
-    base.source_files = 'LNVideoModule/Classes/Base/**/*'
-    base.public_header_files = 'LNVideoModule/Classes/Base/*.h'
-    # 本地目录
-    base.dependency 'LNVideoModule/Network'
-    # 私有库
-    s.dependency 'LNModuleProtocol'
-    s.dependency 'LNCommonKit'
-    
-    # 公有库
-    base.dependency 'MJRefresh'
-    base.dependency 'SDWebImage'
-    base.dependency 'AFNetworking'
-
-    
   end
   
   s.subspec 'Feature' do |feature|
@@ -61,18 +49,8 @@ TODO: Add long description of the pod here.
     feature.resource_bundles = {
       'LNVideoModule' => ['LNVideoModule/Classes/Feature/**/*.xib', 'LNVideoModule/Classes/**/*.{png,jpg,jpeg}']
     }
-    feature.dependency 'LNVideoModule/Base'
-    
-#    feature.subspec 'Player' do |player|
-#      player.source_files = 'LNVideoModule/Classes/Feature/Player/**/*.{h,m}'
-#      player.public_header_files = 'LNVideoModule/Classes/Feature/Player/**/*.h'
-#    end
-#
-#    feature.subspec 'Player' do |player|
-#      player.source_files = 'LNVideoModule/Classes/Feature/Player/**/*.{h,m}'
-#      player.public_header_files = 'LNVideoModule/Classes/Feature/Player/**/*.h'
-#    end
-    
+    feature.dependency 'LNVideoModule/Common'
+    feature.dependency 'LNVideoModule/Network'
   end
   
   s.subspec 'Mediator' do |mediator|
@@ -81,7 +59,8 @@ TODO: Add long description of the pod here.
   end
 
   
-
+  s.dependency 'LNModuleProtocol', '0.1.5'
+  s.dependency 'LNCommonKit', '0.1.8'
   
   # s.resource_bundles = {
   #   'LNVideoModule' => ['LNVideoModule/Assets/*.png']
