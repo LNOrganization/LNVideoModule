@@ -46,9 +46,9 @@ TODO: Add long description of the pod here.
   s.subspec 'Feature' do |feature|
     feature.source_files = 'LNVideoModule/Classes/Feature/**/*.{h,m}'
     feature.public_header_files = 'LNVideoModule/Classes/Feature/**/*.h'
-    feature.resource_bundles = {
-      'LNVideoModule' => ['LNVideoModule/Classes/Feature/**/*.xib', 'LNVideoModule/Classes/**/*.{png,jpg,jpeg}']
-    }
+#    feature.resource_bundles = {
+#      'LNVideoModule' => ['LNVideoModule/Classes/Feature/**/*.xib', 'LNVideoModule/Classes/Resource/**/*.{png,jpg,jpeg}']
+#    }
     feature.dependency 'LNVideoModule/Common'
     feature.dependency 'LNVideoModule/Network'
   end
