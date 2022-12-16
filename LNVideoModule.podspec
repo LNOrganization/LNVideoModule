@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LNVideoModule'
   s.version          = '0.1.2'
-  s.summary          = 'A short description of LNVideoModule.'
+  s.summary          = '视频组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  视频组件，开发和维护视频相关的功能
                        DESC
 
   s.homepage         = 'https://github.com/NoNameOrganazation/LNVideoModule'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'LNVideoModule/Classes/**/*'
+  s.source_files = 'LNVideoModule/Classes/*'
   s.public_header_files = 'LNVideoModule/Classes/*.h'
   
   s.subspec 'Common' do |com|
@@ -59,8 +59,13 @@ TODO: Add long description of the pod here.
   end
 
   
-  s.dependency 'LNModuleProtocol', '0.1.5'
-  s.dependency 'LNCommonKit', '0.1.8'
+  #私有库
+  s.dependency 'LNModuleProtocol'
+  s.dependency 'LNCommonKit'
+  
+  #公有库
+  s.dependency 'SDWebImage', '~>5.9.0'
+  
   
   # s.resource_bundles = {
   #   'LNVideoModule' => ['LNVideoModule/Assets/*.png']
