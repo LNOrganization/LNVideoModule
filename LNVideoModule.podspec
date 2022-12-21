@@ -49,8 +49,28 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Feature' do |feature|
-    feature.source_files = 'LNVideoModule/Classes/Feature/**/*.{h,m}'
-    feature.public_header_files = 'LNVideoModule/Classes/Feature/**/*.h'
+    feature.source_files = 'LNVideoModule/Classes/Feature/*.{h,m}'
+    feature.public_header_files = 'LNVideoModule/Classes/Feature/*.h'
+  
+    feature.subspec 'Base' do |s1|
+      s1.source_files = 'LNVideoModule/Classes/Feature/Base/**/*'
+      s1.public_header_files = 'LNVideoModule/Classes/Feature/Base/*.h'
+    end
+    feature.subspec 'Focus' do |s1|
+      s1.source_files = 'LNVideoModule/Classes/Feature/Focus/**/*'
+      s1.public_header_files = 'LNVideoModule/Classes/Feature/Focus/*.h'
+      s1.dependency 'LNVideoModule/Feature/Base'
+    end
+    feature.subspec 'Recommend' do |s1|
+      s1.source_files = 'LNVideoModule/Classes/Feature/Recommend/**/*'
+      s1.public_header_files = 'LNVideoModule/Classes/Feature/Recommend/*.h'
+      s1.dependency 'LNVideoModule/Feature/Base'
+    end
+    feature.subspec 'Player' do |s1|
+      s1.source_files = 'LNVideoModule/Classes/Feature/Player/**/*'
+      s1.public_header_files = 'LNVideoModule/Classes/Feature/Player/*.h'
+      s1.dependency 'LNVideoModule/Feature/Base'
+    end
 #    feature.resource_bundles = {
 #      'LNVideoModule' => ['LNVideoModule/Classes/Feature/**/*.xib', 'LNVideoModule/Classes/Resource/**/*.{png,jpg,jpeg}']
 #    }

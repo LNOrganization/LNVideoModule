@@ -18,6 +18,7 @@
 		06A190216E9E280A657B8E4C1F0EFDCC /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E13A44E06C78F21A7D0422ECA43BFB /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0702E6B3508CB1B90990325B0019D063 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E5B19638E2646D72E248D3F512A0F0 /* ReplaceMe.m */; };
 		07F8C8D8AFDF008C5A8590BFD794A980 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAE068FF9CCA392E6A9AC5BAB832448 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08AE550DF4A82CAAE75A1B4635C3E249 /* LNVideoMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 60570F11FB75C4B104C152BF3718BEEA /* LNVideoMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08E6A808D0CE765CBD280D9CA6B937E1 /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63303ADB77ABA3424497DB6E16BF051D /* SDDisplayLink.m */; };
 		09A352D484CD26FA8406B356E797DF58 /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A12B60E05A18422D4528DF4DC5D547FA /* SDImageCachesManagerOperation.m */; };
 		09EF8B3A84405902D5D14C2714268110 /* SDImageGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E8C8D220432EE131C5D48E75B978D0 /* SDImageGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,7 +26,6 @@
 		0C12F7CF112D12F88BF5DB92B47136DE /* SDImageCachesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CE30038A96AA6C84F74AE291AAF6AB /* SDImageCachesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C93E9E933FB9019D5D47358823FB9BA /* LNProtocolConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BC2EE691EC01090E8503B74BF3503B /* LNProtocolConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CCA92E7CC50820FD04F3A8DF97052F0 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1671423B9C07E647595733EF143F6EB /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D6D4BBD5ED0F41D9E578517632E1AD5 /* LNVideoMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6D335A5F185DE4CB5D434E00C1412F /* LNVideoMediator.m */; };
 		0E368F649402D525F23915D68112F21D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E7438B12CD0AFAD6A32490366C702D /* Foundation.framework */; };
 		0E4F1922DE681282DAE790AD61AF7D81 /* LNAccountModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9F06C7CE78E8CBB84EE3DE07E653BE /* LNAccountModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E9417775A1A9022297E35CA1A07CBFA /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F580CEDABD096B8F1B0A7B9B0A71FD80 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,13 +48,13 @@
 		164B2055A1617A2216363B84A2A9FCAD /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E23C9DA70BF70BE981032FDA7B186CA /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1768F735FEFEB1A60393ED8F2F8D7641 /* LNBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E95E67D34CDC65FD66BFF2F830E04D /* LNBaseCollectionViewController.m */; };
 		18AEFCE986FB74A0B6B092B3BA2267C6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE7C23BC2CEA894CDDF65E155686B0 /* UIImageView+AFNetworking.m */; };
-		1926216389540B126E7583A426863F75 /* LNVideoModuleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EF9C6E7AB27F79DE82BDB269F82DF4 /* LNVideoModuleConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190770C472E26E4B6C804FCED2454E42 /* LNVideoMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6D335A5F185DE4CB5D434E00C1412F /* LNVideoMediator.m */; };
 		1A477F3E469CBC14D798BD58D9035512 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C67A010CCEB42C80F9D392587EDD99 /* SDWebImagePrefetcher.m */; };
 		1A701FB46E46D2678FD4C3BA823CB8E5 /* LNHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 502C584F3DCC9A4DFA7B133694BE326B /* LNHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BF136A380100030C03DED7E52F746DB /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9A926FD10541EE63F54B9ABA5B0B6F /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C141B39E1334A4EC91DA9ACAE760273 /* SDWebImageTransitionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4FC524945C7B2BEC8F641A0AB74E4A /* SDWebImageTransitionInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D85DE0AED3B7196D06B9F1359C9C15C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9241CB1470BDB848C018F88257AD5A50 /* UIImageView+HighlightedWebCache.m */; };
-		1E15B70D1491CFF6E526E6AA53346512 /* LNVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AE16363488FB2FA9C6DDA36696EDCD /* LNVideoTableViewCell.m */; };
+		1DB6F750D037C04B0CF433604AD0862E /* LNVideoRecommendListProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = BB913E5C2018C8B92089D0F8A281E0C4 /* LNVideoRecommendListProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F1196221FB614561FFBC654B38379C5 /* SDWebImageDownloaderResponseModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DD3D017FA109BE4835867CB05EBE1D /* SDWebImageDownloaderResponseModifier.m */; };
 		2055818BC97A84B0F306E7D511E8DC98 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8A7C1095E80CA7B5B4CAA9C2D09260 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22AD28E260EF21FECAAEF40B04E8E020 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA15097538F8A11F2B84C5180765650 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,7 +65,6 @@
 		24381239E48C6E64D74E6433C4F6384C /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 052FC4D9427ED1959A0CCBD23A29678B /* NSBundle+MJRefresh.m */; };
 		2548A014DAFE2A21B58D027B312B41A5 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 969BECD1ED7DF74D655416E642675E91 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25597103ABC59A4ADD8DE181270CF249 /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24569AFB3560B42DD27BCF7A6B99CC8E /* SDAnimatedImageView.m */; };
-		256616D726D306116A36C19147520A94 /* LNVideoModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF01F7CEBE2FE958D8FAB9A57074711B /* LNVideoModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		260FACF29ED3B8C54ED7C0EDC6765525 /* UIViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = E56FF09928404418BB2084090472C613 /* UIViewController+Router.m */; };
 		2739511D56944A6E8DEBD17552618D99 /* LNNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A86C8B29B41370B2AB765298FB29E6D5 /* LNNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2763E72D0DBBD58985DBD730B1AB8922 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A74B4F4EB755512A5888DF016D871F /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,28 +73,23 @@
 		27C9442B06AE500FA4F53B89E14A3491 /* LNBaseDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A955A87BCD342C98C4E5572F9C7F10DD /* LNBaseDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		290A0EC5280A79EED2781CC91AE0C1EE /* SDImageHEICCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C902E73B3061FA8145E59D4A3E03826 /* SDImageHEICCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29789FE0A0B0CBB874DE95EAABFFA6B7 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8640699820C3A775C181F8869680646A /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B2A7F6939E2EA45E81B2C0430600B82 /* LNVideoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DFBC61887DD02EA0B8710DA84DA88 /* LNVideoModule.m */; };
 		2C36987D8DDDE8319E05A84925CF9DE6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F869DC7FEA1F565B6984ABA3E42EE21 /* ImageIO.framework */; };
-		2C455C49EF0CB415D88431048AFB0DDE /* LNVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B3E62EA2E68AEC00090A153881AA8E /* LNVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D88CD60C894AB0031476884F3AD2AEF /* LNUserCenterModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FF36BEA94141677E8F3F91E1B0C8AF /* LNUserCenterModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E26259AD9D572976189B0AB6BC872D7 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DAED82E002B8390A2F9500E35E0990 /* MJRefreshFooter.m */; };
 		2E5604ECF0ED43F5F4C3866B1D81AE41 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A5606B41D7BE70979791CF03CC9619 /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E74DCAB6C1BC59DC4D7AD2744781BB2 /* UIViewController+Router.h in Headers */ = {isa = PBXBuildFile; fileRef = CE82AC86063B02A926734BDCFB8418EF /* UIViewController+Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E8F1639ED59A0BC83D7D970812C5F61 /* LNVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C576A57EC8EA83A40DE68126414CF88 /* LNVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EC8802DAFF334C1087A6DFD6F1DDA74 /* LNVideoFocusListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18675AC4E574D73710DCF364C312A89B /* LNVideoFocusListProvider.m */; };
 		2F4038DC22F9A2F2143796F80255A5B5 /* LNCustomViewAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = B913E1EA4A33CBE8AB45ECDC06ABD9EF /* LNCustomViewAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		318BF8810E98914159703EA759FF8613 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F032B4FE27D15C268F5A192036B79 /* SDAsyncBlockOperation.m */; };
 		32A7E6887DFC4FCD63392017E95BD017 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 960B54A9E0F2741912FDE32F62DBF0DF /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33B9A195FDB315F18465CB1BA24D74A9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F391FAE81CD01FEAA80C4A13F44522A8 /* AFHTTPSessionManager.m */; };
 		347731E8D4C4F27FC53DDFAC590481D6 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 462157407F5CEE6B50EAD01F47AA0EB7 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		354FDDDF6FFF27C53D04DEFFDA95073A /* LNVideoMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 60570F11FB75C4B104C152BF3718BEEA /* LNVideoMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36FF2A8DC27E9F51031D7A4BC424E394 /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 758E1E008DF4B3F81219290D4F9F1EF7 /* SDWebImageTransition.m */; };
-		3712311E2A14B93FC75E0154224621C2 /* LNVideoFocusTableViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A14B9858DB1256D8B22BA4CEC072E9 /* LNVideoFocusTableViewControler.m */; };
 		371A52C3AF7FE47A737B171AE0CC5EFE /* LNNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BE019985DD8058E38E889D32CF5691 /* LNNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		377387341767E16C497F2CCC8035F0A8 /* SDWebImageOptionsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970FB6C82B3A98730DE57553CC19CD1 /* SDWebImageOptionsProcessor.m */; };
 		3856C16C5365555D933F423F57D34CCD /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE55D0339966B63EC3FBA2C5D23AB34 /* MJRefreshBackNormalFooter.m */; };
 		38F5D797AD8FF879268FD13139BD7E90 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2A82353B5F98CEA35120A6FEB7A0A7 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39BE46D03C7121E5C53AD33035DBFBB0 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96077A73C8EF86B3D13ABAE344F74141 /* SDImageCache.m */; };
+		3A1DC368CA69F9CB5D3C8C6731435346 /* LNVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4239606309549FF16DE0F6E3C2C7BDC9 /* LNVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A2F6916289AFB3D4871225F232D2368 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8F2BF80D74883AF5F04761BB69C2D0 /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AD3A5FA5D5F10F7AFD0D8CCC67BB25D /* LNModuleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF065EABF0FB708C5F27232D85F95462 /* LNModuleAppDelegate.m */; };
 		3B294A0907240759D7C41B5564CD38DB /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2BB1B5A0BEF22662D6CD27E046D57E /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,6 +103,7 @@
 		40013C68175BDEE3A975C7B1B9FA7DFF /* MJRefreshNormalTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = F32CCCD7666A48FA9EE88918850D55BC /* MJRefreshNormalTrailer.m */; };
 		4264C0464E6D862CDF7138FAB4881141 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C00C3291EA8E0220354B2579888D0CBD /* MJRefreshBackGifFooter.m */; };
 		430360069096E75AC4FF5B682258E16F /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 560AD03CFA46149541A1837FA222A4C0 /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43039EC26A2585845BA08303A2CA9738 /* LNVideoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7C40FD8DEAA1797E5A7F32AFDB0489 /* LNVideoTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4355446BCA7E38CAA08F73F4264DB699 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE6233BB55F5F1A546F2EC99623B8ED /* UIImage+GIF.m */; };
 		43A3DD12DAE7FC3405627894765CB94E /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAED75FDD37F8A1EFCC707AA40AF0E08 /* MJRefreshAutoGifFooter.m */; };
 		43B5CCD4CAF04C2D8FFE842140C85C5B /* MJRefreshNormalTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF065E83425FD41E800B6D3A32DCB13 /* MJRefreshNormalTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -165,19 +160,19 @@
 		669CC80FE756B0E10AE09B834617B638 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CA514C14FBFAB96AB1FCC73CA804762D /* UIView+WebCache.m */; };
 		66B9527EA0F7B169BE359E6D9E63C93F /* LNJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ACB5F5F9190D383ABD2926F2FE4094 /* LNJSONModel.m */; };
 		66C36865F6C065B6363A160EDF8E19DC /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECAFD1F84933A0A87488AAB0D28C1E1 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6749612D0AEA0EA882BAB000C6541A5A /* LNVideoModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8C8C9F023C59A3C8E3E2D693DA74B /* LNVideoModuleConfig.m */; };
 		67875EB760CBC0BD40F9CCA14C11F183 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 160E6C67E37A5AA2675EF1EA974BBE93 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67A3AFDD480A73B5A031184DAC573A7D /* LNBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B43FD82435ECE9D3AA176E4E6CE9A2 /* LNBaseCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6968BBADCDC6B72CA29BF915ABF35AB2 /* LNVideoFocusTableViewControler.h in Headers */ = {isa = PBXBuildFile; fileRef = A06D1E614C7B76E5123869991B3E3BD2 /* LNVideoFocusTableViewControler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		697CEF1BB290F4340BEE03C040C812B2 /* LNJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 205A514A5AD908FBF28AB5EBEFD68305 /* LNJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6980D78B013B86C871BED8AE1762B598 /* LNVideoNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D21EB3C371E16EBCDD91BA0072A4FC71 /* LNVideoNetworkConfig.m */; };
 		6A679F1707E971DBF921C8C6BDB1766A /* SDImageLoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 601F77606FD6E1219F4B03EC0E6C7A3E /* SDImageLoadersManager.m */; };
-		6AF7AF93EDA5DB532FE6D21AB721CD69 /* LNVideoModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A8C8C9F023C59A3C8E3E2D693DA74B /* LNVideoModuleConfig.m */; };
 		6BD03CA3D263FA784F6C5139CAC98913 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEE37D2D2307B988344E5DFCE5F21 /* MJRefreshGifHeader.m */; };
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9F99104ABF03AB96AD6AE882983D2E /* UIProgressView+AFNetworking.m */; };
+		6C4F6B9AFE6640E2C695510FC29FAA60 /* LNVideoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 213DFBC61887DD02EA0B8710DA84DA88 /* LNVideoModule.m */; };
 		6CCC672058260BB2605C67049DD5F484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E7438B12CD0AFAD6A32490366C702D /* Foundation.framework */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 322A735D4EF5BE5962AA631B776A5BEB /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E4B6B9B6FE3D9DF357D0176A58F1A2B /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2FA9F6C4205A43B0C0B2AAAA994802 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E97E409BA47550B8F0D0382B9F044D4 /* LNNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCCE863D696DC71724B108105894027 /* LNNetworkConfig.m */; };
+		70A82268972EA6F533B6ED4FE462FDA0 /* LNVideoRecommendListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2167382691B2B28DDF7947A237CA4 /* LNVideoRecommendListController.m */; };
 		70CF98F36CB0DC205D2CD7762BD93D99 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6367FE802421EC6B858A4C657A1E23 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		712A3E75ECEA917D3D7B6012EA9052F9 /* LNBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3706D9ED97458A22F9EF8BFCD0A9BEB7 /* LNBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		718CFDE375E7C204F2228B9350D102E4 /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4EAB0788B3985B5E5633BEA71C0F4B /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -185,13 +180,14 @@
 		72CAD26DC86BDDD5AE05CA3C4D9A0C8C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9611046593D51E4FACC9B2258CCF76F /* JSONValueTransformer.m */; };
 		72D03E4592701C939F8CD8537B3502AF /* LNModuleCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A59BF90152A34C3D6F72531147769B /* LNModuleCore-dummy.m */; };
 		72FCD5E3E6BC4B7BCB0822CA67C74CFC /* LNMapTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF88E8E4EF11063419D8C0E4E110166B /* LNMapTable.m */; };
+		73235277A11B66B7F094A57B2C96E98A /* LNVideoModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF01F7CEBE2FE958D8FAB9A57074711B /* LNVideoModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733BFB548314A0E18152D55CC09D3ED2 /* LNVideoFocusTableViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FFC17A116DBB31B6D5844853C54940 /* LNVideoFocusTableViewControler.m */; };
 		73CE00C72552AF76287D3E356C012344 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5BD2D46DBCB38E0452C419154052C /* UIImage+MultiFormat.m */; };
 		74503F3F8C33F2619BA9C698112A4546 /* LNCollectionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3FF7DBD8070106FBBE4FACBB076F82 /* LNCollectionVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7646E2EA184EF827A7A3150130139597 /* LNVideoFocusListProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2416C5FB46B14ED38E43BFAAFC8D8A /* LNVideoFocusListProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7667934ED8F1A6AD84A5F3588EA3CA3C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AFE0DDF610173240140B79B65CC3B9 /* ReplaceMe.m */; };
+		752ED56DD228FF8AA53499ABAB5FB99A /* LNVideoModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A301CF5FE17F06C83990B488BA99949 /* LNVideoModule-dummy.m */; };
 		76931F92D41205C7E1CD91656DBE01D7 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CE4CAEF472E9A4DB0DD007C6B1B739 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76BD05B1E19928BFAFDCB8B4EC51E3FA /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDEB272EFE12C5FF8F637697DD5D5F6 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7746F841971B6473C3D00A3A0D0A020F /* LNVideoModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A301CF5FE17F06C83990B488BA99949 /* LNVideoModule-dummy.m */; };
+		76EE747300A6963CDFE634AA59A14CA3 /* LNVideoFocusListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A1F0597F9F7DD6B757B442C69A64E /* LNVideoFocusListProvider.m */; };
 		778AD1C4B913A067326B40C249677061 /* SDWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98FF24619C263A5BCDBC04E6D8F236 /* SDWebImageOperation.m */; };
 		79F37EF73A16E2846E5CEFE030814898 /* SDMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7077AA7EF82B2065C898ACA6A3A4F243 /* SDMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A4ADA3C33D0B420E603A0625837B1D3 /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3828BF99A685E75333806AD96B769335 /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -219,14 +215,16 @@
 		836805C6ECA369B5A0280201657A4E50 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D59B154DAE4133D132B2A8BDE86FFE7A /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836E100C936FC5F4695B38DEA828ADA8 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF995FD0E63C8A4A298EA6650C9D23 /* MJRefreshStateHeader.m */; };
 		83F7386F0A3B86B0DCEA45C565A863D4 /* UIImage+ExtendedCacheData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A19A939C88874932C0083666048D963 /* UIImage+ExtendedCacheData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		857C259EA713322036E4C03EDDFA337D /* LNVideoNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D21EB3C371E16EBCDD91BA0072A4FC71 /* LNVideoNetworkConfig.m */; };
+		8596589E3F445BDF4D819066AD4F0613 /* LNVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 430B3CD104489BACD44AFF3BB21BEC72 /* LNVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8677CF49C0871B2AFECF2107EC11E6CB /* LNHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 25148DA75DD44B31C13CF2D3752CA244 /* LNHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86D192AD22C852D8F1B8D8DCF8CB5588 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36F23DAE21E9EEFA6C98BEA85109ED /* UIScrollView+MJRefresh.m */; };
-		87A000D20E710B3F22BA21CE751093EB /* LNVideoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1150A1F05122F02D1DD7EADE6E0935FE /* LNVideoTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		876C1102724CAB1D685AE53C09CFF5DA /* LNVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC6C4B80B79E0FC5A4A95CFEFDE3E9 /* LNVideoModel.m */; };
 		890EEC0A349913FE635B9C74BD186198 /* SDGraphicsImageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B323256470628D2AF44833F8F4759CF8 /* SDGraphicsImageRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8995498E3EAB7873FC5CB4F1DB0FC7CF /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AEF81CB8A3343B4D809F4700049E7D /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C55D03F21C76496A41A02A5103E994 /* LNVideoFocusListProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDDCEFCD1E18635711B407FCF8E3355 /* LNVideoFocusListProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89D6FFF073E87291FE67836CE19E0194 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A888E0285797096BF0BB5B89AD11A8 /* MJRefreshAutoFooter.m */; };
 		8B028614BD0914E13ED97FDB4F515B38 /* SDAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1A2E6794E5DCDA31CB1E41023C0589 /* SDAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B233216759B3780FA5C2DCBD15BA94E /* LNVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FD3510A568BF5E4ADE95A9BDBCEFB1 /* LNVideoPlayer.m */; };
 		8BA83AC5C4630F997E922F15516B09D2 /* LNListDataAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1912828011AA652C231A700FE3800C /* LNListDataAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C485B0CED7F5EBAFE9EA8CD670D421E /* SDImageIOAnimatedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E80F0F59CC9DD19D1CEB28805F9D423A /* SDImageIOAnimatedCoder.m */; };
 		8C5440B01B24C48116FD0764CD5EAECC /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B15B530897AE0840AB1D54CDB5D6C9 /* UIImage+ForceDecode.m */; };
@@ -243,36 +241,35 @@
 		918E4482125DD0797739096F8210B6D6 /* LNBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C172DDDFE8E57EAEE5AABD89AD3B84 /* LNBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D60538EE9C22C248056CC42F828F3F /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F4D3168E04E690A719FFF5A0B9DAED /* NSButton+WebCache.m */; };
 		92AC407F46CF3536F3D29DF8547E0197 /* LNCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF0DA90F2879DFA42064D56A7248C52 /* LNCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93D5A8ECE6956A641E65083A3EB2505F /* LNVideoUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9197951E4E20E46D39DB0248129358 /* LNVideoUserModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93D633F6614F8D832F68920E3520E0E2 /* SDImageCacheDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFB10A4D5C16D44B88A9CCC88B8932 /* SDImageCacheDefine.m */; };
 		93E2A462A2405FF2CF50432B3A1E915F /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2428FB1742E55D72FC5CA6E2E9D004DA /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		942DA5EF0E1918A58093236239CCF01B /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C031E08D825AAD86DE42D0F7FD09AE /* SDWebImageError.m */; };
 		94B8828AA3B737ECCDB2B9287289D76D /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BC249A03E096A5B424F10FF0911809 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954820B895D037E774BBA33465A48EA3 /* LNVideoRecommendListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE36A99CA360BFE315BBD90EE384FA /* LNVideoRecommendListProvider.m */; };
 		959C87908B8BDD56D5C39D4780D756B4 /* LNHashTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 80111A0434742F5DC25EB8E34DA0149B /* LNHashTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B3E0250DD41F10F26F0715DFE4058 /* AFURLResponseSerialization.m */; };
 		980CC0C3C1236D05EBBD4AEA163F872B /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DB0466617595057AE989ADC64749D2 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98710B00B845C88CD245E701EF3637CA /* SDWebImageError.h in Headers */ = {isa = PBXBuildFile; fileRef = F426ECC46133389ED1F9CCB555B39D6F /* SDWebImageError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98EF48DE8ED6A651610F7A82ACCD72F6 /* LNVideoRecommendListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E7793512AB48356843EF43A241E869 /* LNVideoRecommendListController.m */; };
-		990057F5BF9BCF9E9F947091710CAA37 /* LNVideoRecommendListProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F2BFE7511A53E5EDDA17652B93145A /* LNVideoRecommendListProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3F2140BC0CD4963D3220FEE790C1BA /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DE75BB08FB750561399B5BB3062EA566 /* SDImageHEICCoder.m */; };
 		9E970FAD4135D89DAD0C67FAB890383E /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8364E272A0857D8B13B8AE0327B53861 /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F10E522FBE715940D42E8EFD5E38C57 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F2E5EBB89BDD1801659F6ACB462D /* MJRefreshAutoNormalFooter.m */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EDD0FE56A8EDE908EFB9FE254BDDD9 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F89F6E7C310E26B11477B179C1C6AF0 /* LNVideoRecommendListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC635805F562B27886601B00C0ED0F /* LNVideoRecommendListProvider.m */; };
 		9FE45D5DA7C1EC83B56D42B708B0BFF4 /* MJRefreshStateTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = D47555477D698879D1A38321C475161F /* MJRefreshStateTrailer.m */; };
 		9FEA96D0D4A5376DF07BB5D0D7B5B740 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE5024352635F57689AF9468D89FB0E1 /* MJRefresh.bundle */; };
 		9FEFF3955A46D7623690629137AE6823 /* Pods-LNVideoModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04CDAC2B49C177DED465B131123EDE9 /* Pods-LNVideoModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A21185FF05A52655ABB6D287B272E8F3 /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 02066D9C28F66605A06C44437786A4BD /* SDAnimatedImageView+WebCache.m */; };
 		A2A30F355527100E0AFCAB3F7EC1D21D /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 58421088A06D352F28C651D68622CC30 /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A300BA85F42B470055A55359C540CDB7 /* LNVideoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1EF5AA457218049967D7844A7793B0 /* LNVideoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A36B38BC94FC447F25A6B93DFF05A0B4 /* LNResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F61753935158E3A21EBE66734F13D /* LNResponse.m */; };
 		A3859B6FD229161265353F499647CBFA /* LNRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BBF92F9DA7CC6463768DDC1E31FDB2 /* LNRouter.m */; };
-		A4985A983389FC00F6D5690D0D130252 /* LNVideoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1EF5AA457218049967D7844A7793B0 /* LNVideoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4AA701D80618010DDFD9B614AA2D08D /* LNVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DE326C6F42C61DE4B1012930C37F9 /* LNVideoPlayerViewController.m */; };
 		A4B3CE6F3E3124449CF6B1E04B30B107 /* LNCustomUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BC35B1BABF9419B03402C5C3E678AC82 /* LNCustomUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A58D530B935E9AB3700A81CCDCF44320 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7D21FDD66D7F627E446CD6D6FB7E10 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A61295D29E5C8CD7BEA8553F0C89C769 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1F487901B52FE65EDC1FFBC288B26 /* SDWebImageDownloaderConfig.m */; };
 		A63DD5D18E7F25E5EA465E4664E93A37 /* SDFileAttributeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 248452F1FCBFB54F951593032B075E34 /* SDFileAttributeHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A6B982D3CB62CD4B14ED270C9EDF70A8 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 748E539AD2D3D795166D42523FAB9187 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A71EEDF14A586D3FB1C049E10410F1FE /* LNSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AB6170793FCB16EBCA9221BDFE588F /* LNSafeMutableArray.m */; };
+		A9B8DB7DEE31F17EF1339D15B011469B /* LNVideoNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 796C5C05616A6D2BC9FA821706C947FC /* LNVideoNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9BD4119479241440DF79C903475253B /* SDImageCachesManagerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 624F5EE473ACBA2312BFA7329E197181 /* SDImageCachesManagerOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AB0294182CE7CE7A1D0FA52074B644DE /* NSBezierPath+SDRoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F18FA756E00C747E7D1CD9A571C746 /* NSBezierPath+SDRoundedCorners.m */; };
 		AB0E0BAC52F02DE71934CBEBD672BCE2 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC788AB0345336259F1815206857F56 /* MJRefreshConst.m */; };
@@ -282,9 +279,11 @@
 		AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DDE90C484A37A93BB200DC53FCBFE /* UIRefreshControl+AFNetworking.m */; };
 		AC7596577606424FEA00780A0B34EC4D /* LBProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B78F86845F2C4C2EB06FA4C95BC2808 /* LBProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD6158AF5746E99C7136F3ECA9423C63 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B5158FA2992549588E51B394BA7A14 /* UIActivityIndicatorView+AFNetworking.m */; };
+		ADD5D47061C88A7EC6D81DC17C4C72EC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AFE0DDF610173240140B79B65CC3B9 /* ReplaceMe.m */; };
+		AE20CE504DDE1D22470B59D1433794F7 /* LNVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5BDD27AD3D400C2BBDF850AB2750E0 /* LNVideoTableViewCell.m */; };
 		AEAD61048C92883FB387456CC7721048 /* LNCustomHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 19425110D99B7A27290DAF897DF31683 /* LNCustomHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEBBA875BAD0C0740179EA7D906EA91B /* LNVideoUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D857FC29C2F321D0926098CAC61A73B8 /* LNVideoUserModel.m */; };
 		AF856C8D8D88E950500AF26334D4EDAB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EBB864940E268C7D6CEE1A9ED310F7 /* ReplaceMe.m */; };
+		AFC9570FCFC40D0BDC2FB9E38CF8E080 /* LNVideoUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9197951E4E20E46D39DB0248129358 /* LNVideoUserModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B16E9B4DF1A16963E5BB2BAC0662CD8D /* LNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EAEA36F9F893D6EC8C9C906241A0D6 /* LNNetworkManager.m */; };
 		B3F6B085B71550B99440D98F55746D8F /* Pods-LNVideoModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E2F204A12DB12BACF7D03E96890F1 /* Pods-LNVideoModule_Example-dummy.m */; };
 		B5DD0705DFB2FC009B2FDB9539FEF0C5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 821A1484F0164D7F7764E0E98EDBA244 /* ReplaceMe.m */; };
@@ -307,6 +306,7 @@
 		BADC4FCE9BC134EC1A6574286140CA60 /* UICollectionViewLayout+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DFE79D8F8131AEA551286959837610 /* UICollectionViewLayout+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB032423F15A0601B8D697BD00D51B75 /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C31B5314ECA0D5FE36483FBE454FD783 /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3EBC0ABA660BC1E2E683EEF833DD24 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 208A2FF981AB0EA65D12303E70AE7B80 /* NSData+ImageContentType.m */; };
+		BBAC0FA5A4C6F803A04C14307541C3C0 /* LNVideoFocusTableViewControler.h in Headers */ = {isa = PBXBuildFile; fileRef = C621067180DC11D70D00851732C752CA /* LNVideoFocusTableViewControler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC51BDDF73F88506A4F5FA1E3603B587 /* LNVideoModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CE40300CE079101ABF686AF0A6F4B3 /* LNVideoModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC932F2374EE8E2524E1500290D125FA /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D797C2E7D6105226BEA938B9EDFA83A6 /* SDImageCoderHelper.m */; };
 		BCD200C62F27CDD1442CA4DFD7226B6D /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E682D285B5F710B48E797A84D4E5B07C /* JSONModelClassProperty.m */; };
@@ -341,7 +341,7 @@
 		CD45DA9962E200C58CFF545C0D352FA3 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 525C7B49B4195EE6A893BA5849C2DE4F /* UIImage+Transform.m */; };
 		CDCA2DC54E25CFE6FBBCC6C52CDABC4A /* LNBaseDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 58468146866FD7A52B52F376AA37E38A /* LNBaseDataProvider.m */; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB20D1E58460DC2E81430CCAAEDE160 /* AFURLRequestSerialization.m */; };
-		CE367F18C72792506DF3B3C66D9FFF85 /* LNVideoNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 796C5C05616A6D2BC9FA821706C947FC /* LNVideoNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE52240E61C2E511606E2543D4F58C2E /* LNVideoMediatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF980C3874A8FC418CAC9FC7DA353167 /* LNVideoMediatorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF029CE7182C76F4FF7C39797A6FE066 /* LNBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12D30F7E7AAD3128937EEAAD60033B0 /* LNBaseNavigationController.m */; };
 		CF3277D183243988BFDEE49095505050 /* NSBezierPath+SDRoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 295FC55B2781BE10C0009EB8CCACE994 /* NSBezierPath+SDRoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CFF03A453A3A9C62D78E6B556967E2F7 /* LNModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 383F91627A10CB90764C523D77F3D444 /* LNModuleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -349,18 +349,20 @@
 		D1850F18BDF4068D723BFB7089FA9422 /* UIImage+Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DAB625D64D857D75895E71F6B03DCC /* UIImage+Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2E44271D8F711301B0E91AAB944064F /* LNHashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D6A48A35EB119425147DD14A565D4 /* LNHashTable.m */; };
 		D2FA7E5795E0FE18462C1C141D8CC822 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C15CFFF54A81F26CDDDFA3099D5F22E /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D477D612CB8E2641DB8E81AC9772C540 /* LNVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B3E62EA2E68AEC00090A153881AA8E /* LNVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D61217A84B3AE0F7950C271F4AE137B4 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 004F51F0CCB93848EBF7FE9A6C91ED54 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D67D995F450E39602E21EFB9D067FDC4 /* SDWebImageOptionsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D33C5B56C1A52274E5B33D1D0C85E3 /* SDWebImageOptionsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7A28EC8E7346B584181985FE1BF8961 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6B0B16F19972134C5A441CD385857 /* SDImageCacheConfig.m */; };
+		D810852E0BD8CE3092022EDCAD24DFC7 /* LNVideoUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D857FC29C2F321D0926098CAC61A73B8 /* LNVideoUserModel.m */; };
 		D83BF3E56BC47CFE382F77A37DA0011A /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6D484F275A3E5D65C6BC8BA0AF77D9 /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8F9FFF00149646E979A3B4A68D49658 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6CF40FBE7B35DE3D0BFEC4C6857B69 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D98EEF38B7A53859B4FA72F381770158 /* LNVideoMediatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF980C3874A8FC418CAC9FC7DA353167 /* LNVideoMediatorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F3A2C05246A2F2048AA2864D04B555 /* LNVideoRecommendListController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A52AA8799D8DE0073A0CD46BD5111B /* LNVideoRecommendListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA04D409A56260BD3C52D3C0EEAF22E5 /* LNBaseListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F71D9F71CE809D5D8AB523FC958CEAA8 /* LNBaseListDataProvider.m */; };
-		DA41FC86D5335C34B51454E0B9ABE754 /* LNVideoRecommendListController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B9835E4ED4DF8385A863E8F7A03D87 /* LNVideoRecommendListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAB95E96104721CDA75CF8FD0F4AF549 /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B60C537C196DD4E11B5B0452A834353 /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB8782B69ABB55A8D2347FD281D445DC /* LNModuleBaseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCD604F37B84EE918FB841080A9D692 /* LNModuleBaseProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC28257657FB2EFA9AFE9F303B490868 /* LNConsttant.h in Headers */ = {isa = PBXBuildFile; fileRef = 992B82E768F6FCBA6B60098714202FBD /* LNConsttant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDC3837D4C22A4A0711D208206D34C00 /* SDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DB9CDF3539544BDD101382F677ECB1 /* SDDeviceHelper.m */; };
+		DDCD0F3082764869BE1FD93EFC0A828E /* LNVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B731F0345A83F29FA4720E68145B4 /* LNVideoPlayer.m */; };
 		DDD97A9D97BC824CF61BB8F5B86524DE /* LNModuleProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D60242789951D68C06827407F2D1427 /* LNModuleProtocol-dummy.m */; };
 		DF1151FF3A76303E10DB370A0C018F4E /* SDGraphicsImageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D514A43CAF2F099E169FCE5DE14D5 /* SDGraphicsImageRenderer.m */; };
 		DF5FAC5EA53FB0E217FE4A5A0BF98E63 /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F55BC150D9F7D055C03A587DFD1D4 /* SDWeakProxy.m */; };
@@ -380,7 +382,6 @@
 		E9134F7F251F5B4DDD7854041F69909A /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E15F2288C07DF72CEC18E9D9890830B /* SDImageGIFCoder.m */; };
 		E94790C847E0E0AF92D99C1ECB5F2BD8 /* LNWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6958AF34834848DCE49034D07ECF63 /* LNWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E948965CD29AC5C8718632D776B9C592 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 357A777311483593CD0D4A1093C78D56 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA2756B56EDD377D0ADFF052EE42B896 /* LNVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA746D1B7092D0C85C851DCAF3C4AF1 /* LNVideoPlayerViewController.m */; };
 		EC269E35FCF2D84333B449B26E62D195 /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D77765436823CEFF451D455853092430 /* SDImageAssetManager.m */; };
 		EC4845F71EE6D8CA34E28E15A6AFD8A0 /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F932E8E7BD3FB2A36756AA0A6E58475 /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC64FF19C12457F26AA734E6BE333DF4 /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CBBE5DE6F8C9EA95AEC01CAED2683 /* SDAnimatedImage.m */; };
@@ -391,6 +392,7 @@
 		EDC63CB7E405384556C03D384E3A0769 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0C705F0047CB84124F48270D6F90D3 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCC5B0BC46AE0E55DA23853FC92D03E /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEB28BA1561541F5EB919AE39EABAFC5 /* LNBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBB61F51B5B934182F6E50F9B6319 /* LNBaseTableViewCell.m */; };
+		F0BD6E58011F4C570416AD661D9AAF9E /* LNVideoModuleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EF9C6E7AB27F79DE82BDB269F82DF4 /* LNVideoModuleConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F124DF686BA9DAAFCC26D537273B0495 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 006047B87D7630AE577416341057BDE7 /* JSONKeyMapper.m */; };
 		F14F1D14378CA9B408545CCB197116F8 /* LNMapTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 341D25061639D3BCC5549ADF75218BF6 /* LNMapTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F18784DF96C369A9E5F5913294F670B7 /* Pods-LNVideoModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D31C870016DD478EDB67F7AF5C3263 /* Pods-LNVideoModule_Tests-dummy.m */; };
@@ -403,8 +405,6 @@
 		F7C8DE00D208E3B77A667F0DBACCE2B7 /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EBC820E75E60ECC0F632CBD67BE9B9 /* SDWebImageCacheSerializer.m */; };
 		F8C7DFCD2A4963368DE7E89863201D1A /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0FA5520D7FB65F53092FB742493E40 /* JSONModel.m */; };
 		F9CDE02D1E8C14FD2DC339F5F2480CE0 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E36EAA8621411783CC686984E3A7250 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9F81EF0BE23D20127182757226AD77D /* LNVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 947DECD15A30788145C9BE40DE2529B2 /* LNVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA10B97A8154CD9B1FB1B8CE44313122 /* LNVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC6C4B80B79E0FC5A4A95CFEFDE3E9 /* LNVideoModel.m */; };
 		FA2680EF5CEFB6F14B684F058E4AADB1 /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6AFB2DCA7CE770C8224128E7249F4B /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 091ACFEA1EAC3BCEC3AE61BD00EBA7F6 /* AFImageDownloader.m */; };
 		FB963E82DD9BEA50319F45BDFFB213CC /* UIColor+SDHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C80E2683AEF76747D1A208C81047176 /* UIColor+SDHexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -549,6 +549,7 @@
 		091ACFEA1EAC3BCEC3AE61BD00EBA7F6 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		0970FB6C82B3A98730DE57553CC19CD1 /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
 		0B816998A1573327418979A7A34C170F /* NSObject+LNKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LNKVO.m"; path = "LNCommonKit/Classes/Foundation/NSObject+LNKVO.m"; sourceTree = "<group>"; };
+		0BDDCEFCD1E18635711B407FCF8E3355 /* LNVideoFocusListProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoFocusListProvider.h; path = LNVideoModule/Classes/Feature/Focus/LNVideoFocusListProvider.h; sourceTree = "<group>"; };
 		0CD41BDC19180C8F03BD6ECA162F0F2D /* JSONModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.release.xcconfig; sourceTree = "<group>"; };
 		0D780EDE0FCB63E8BABA47BDB4C95E97 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		0DCF995FD0E63C8A4A298EA6650C9D23 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
@@ -557,7 +558,6 @@
 		10A5606B41D7BE70979791CF03CC9619 /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		10C14F812ED159E8544C564780B464AA /* LNNetworkCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNNetworkCore.h; path = LNCommonKit/Classes/Network/Core/LNNetworkCore.h; sourceTree = "<group>"; };
 		1125B8297FEF5DA50A1E967E5C40501B /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		1150A1F05122F02D1DD7EADE6E0935FE /* LNVideoTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoTableViewCell.h; sourceTree = "<group>"; };
 		116D5075287DBADFD869A0ED7F267232 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		13374ECF26ECFA2B413AE7113AB133D0 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		145EA76A55F2C6C93E1760F299C9CFD9 /* Pods-LNVideoModule_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LNVideoModule_Example"; path = Pods_LNVideoModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -571,7 +571,6 @@
 		17F4D3168E04E690A719FFF5A0B9DAED /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		180EEE37D2D2307B988344E5DFCE5F21 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		18173FBA9D1C983B7BC03B67F36584A7 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		18675AC4E574D73710DCF364C312A89B /* LNVideoFocusListProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoFocusListProvider.m; sourceTree = "<group>"; };
 		18A00A3251883B50F907E4A6B6705C3D /* LNDataProviderAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNDataProviderAdaptor.h; path = LNCommonKit/Classes/Base/Core/LNDataProviderAdaptor.h; sourceTree = "<group>"; };
 		19425110D99B7A27290DAF897DF31683 /* LNCustomHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNCustomHTTPClient.h; path = LNCommonKit/Classes/Network/LNHTTPClient/LNCustomHTTPClient.h; sourceTree = "<group>"; };
 		1C2E689EFDEB33D45C36593D7D041F5F /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -617,7 +616,6 @@
 		2F43313E96CB31F57C4692712586BC68 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		30CE30038A96AA6C84F74AE291AAF6AB /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		30EDEB9A51BE8471864001F108926960 /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
-		31AE16363488FB2FA9C6DDA36696EDCD /* LNVideoTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoTableViewCell.m; sourceTree = "<group>"; };
 		31CFB10A4D5C16D44B88A9CCC88B8932 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
 		322A735D4EF5BE5962AA631B776A5BEB /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		32F7442E286AEDB134BE2B72F8F4E5B2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -644,12 +642,15 @@
 		40D1570F3F0E6A529515A1235F11EA1D /* LNBaseVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNBaseVC.h; path = LNCommonKit/Classes/Base/BaseVC/LNBaseVC.h; sourceTree = "<group>"; };
 		41AEF81CB8A3343B4D809F4700049E7D /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		41BC6FDBFDE2674FC480F953D8FE8BE7 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		4239606309549FF16DE0F6E3C2C7BDC9 /* LNVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoPlayerViewController.h; path = LNVideoModule/Classes/Feature/Player/LNVideoPlayerViewController.h; sourceTree = "<group>"; };
+		430B3CD104489BACD44AFF3BB21BEC72 /* LNVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoPlayer.h; path = LNVideoModule/Classes/Feature/Player/LNVideoPlayer.h; sourceTree = "<group>"; };
 		43650E29C04B280BC7C8B2DAE83B5133 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		44496C9BF4473C4F9D397E5CA227F9BD /* UIColor+SDHexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SDHexString.m"; path = "SDWebImage/Private/UIColor+SDHexString.m"; sourceTree = "<group>"; };
 		4494BB269E6735D84D2694628615DB9B /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		462157407F5CEE6B50EAD01F47AA0EB7 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		46466CE1223DE078976D7F7E1DA7F59F /* LNHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNHTTPRequest.m; path = LNCommonKit/Classes/Network/Core/LNHTTPRequest.m; sourceTree = "<group>"; };
 		4792787DF5C4021ADA2603C3469D87F2 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
+		47A52AA8799D8DE0073A0CD46BD5111B /* LNVideoRecommendListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoRecommendListController.h; path = LNVideoModule/Classes/Feature/Recommend/LNVideoRecommendListController.h; sourceTree = "<group>"; };
 		48AED3150945F7052D0E2667B953CD71 /* LNModuleCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LNModuleCore; path = LNModuleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B59F08A42C5EA8A4EB43AEFA61C175 /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
 		490A8C0795580039AFC51A730528E451 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
@@ -689,6 +690,7 @@
 		5D10CFF7ECD2ADC6F6FD6782B41B6AC5 /* LNVideoModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LNVideoModule.modulemap; sourceTree = "<group>"; };
 		5D6BBFF5587DE1235732539A20AF5D0F /* LNFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNFoundationKit.h; path = LNCommonKit/Classes/Foundation/LNFoundationKit.h; sourceTree = "<group>"; };
 		5D6D484F275A3E5D65C6BC8BA0AF77D9 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
+		5D7C40FD8DEAA1797E5A7F32AFDB0489 /* LNVideoTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoTableViewCell.h; path = LNVideoModule/Classes/Feature/Base/LNVideoTableViewCell.h; sourceTree = "<group>"; };
 		5E0C705F0047CB84124F48270D6F90D3 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		5E36EAA8621411783CC686984E3A7250 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		5F41E04542CCC8186B9A69B71450EC04 /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
@@ -707,12 +709,14 @@
 		6984731CB9A2360D841C3A2BA31A79B6 /* LNModuleProtocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LNModuleProtocol.debug.xcconfig; sourceTree = "<group>"; };
 		69DE28B7CAD3737BB5599534EFA0A0FD /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		6A671B4808960471D1462D06F717A7E0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		6B1A1F0597F9F7DD6B757B442C69A64E /* LNVideoFocusListProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoFocusListProvider.m; path = LNVideoModule/Classes/Feature/Focus/LNVideoFocusListProvider.m; sourceTree = "<group>"; };
 		6B60C537C196DD4E11B5B0452A834353 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
 		6B6367FE802421EC6B858A4C657A1E23 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
 		6C11DDA615D28407390C6BFB99E9E548 /* LNModuleProtocol */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LNModuleProtocol; path = LNModuleProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C43C1715224B63EA52B46C0439857A3 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		6CDEB272EFE12C5FF8F637697DD5D5F6 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		6D09FCF41C0AD323BAFC5ED09D777FC4 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		6DEE36A99CA360BFE315BBD90EE384FA /* LNVideoRecommendListProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoRecommendListProvider.m; path = LNVideoModule/Classes/Feature/Recommend/LNVideoRecommendListProvider.m; sourceTree = "<group>"; };
 		6E4FEA5685E72617BD554ECA717CD3A3 /* LNVideoModule */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LNVideoModule; path = LNVideoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF71014E31C1FC4BE6884C03A11F66C /* NSObject+LNKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LNKVO.h"; path = "LNCommonKit/Classes/Foundation/NSObject+LNKVO.h"; sourceTree = "<group>"; };
 		6FB5F3BD4B90BF7B0F3050F3015B7D7F /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
@@ -722,7 +726,6 @@
 		73BE019985DD8058E38E889D32CF5691 /* LNNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNNetwork.h; path = LNCommonKit/Classes/Network/LNNetwork.h; sourceTree = "<group>"; };
 		748CEC84EA143A2F78C104C09403F2A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		748E539AD2D3D795166D42523FAB9187 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
-		74DC635805F562B27886601B00C0ED0F /* LNVideoRecommendListProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoRecommendListProvider.m; sourceTree = "<group>"; };
 		7535CF755D04A3BE1A6E5EB14AA038C1 /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
 		758E1E008DF4B3F81219290D4F9F1EF7 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
 		759AE6500FF02D5DB32B0B6EC2E16524 /* MJRefreshTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshTrailer.h; path = MJRefresh/Base/MJRefreshTrailer.h; sourceTree = "<group>"; };
@@ -738,13 +741,12 @@
 		7B78F86845F2C4C2EB06FA4C95BC2808 /* LBProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBProvider.h; path = LNCommonKit/Classes/Base/Provider/LBProvider.h; sourceTree = "<group>"; };
 		7C1912828011AA652C231A700FE3800C /* LNListDataAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNListDataAdaptor.h; path = LNCommonKit/Classes/Base/Core/LNListDataAdaptor.h; sourceTree = "<group>"; };
 		7C3124478812A45B2A2800BEA1F01E7A /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
-		7C576A57EC8EA83A40DE68126414CF88 /* LNVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoPlayerViewController.h; sourceTree = "<group>"; };
 		7D55189293D29178636EEEE5178C02C5 /* LNRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNRouter.h; path = LNCommonKit/Classes/Router/LNRouter.h; sourceTree = "<group>"; };
 		7D98FF24619C263A5BCDBC04E6D8F236 /* SDWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOperation.m; path = SDWebImage/Core/SDWebImageOperation.m; sourceTree = "<group>"; };
 		7DB15E154D196BDC268FEC72173B4AE3 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
 		7E8C5B60F30AC228B8E148417D209223 /* LNBaseCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNBaseCore.h; path = LNCommonKit/Classes/Base/Core/LNBaseCore.h; sourceTree = "<group>"; };
-		7EA746D1B7092D0C85C851DCAF3C4AF1 /* LNVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoPlayerViewController.m; sourceTree = "<group>"; };
 		7F41B241781859D12CC023244E3618FA /* MJRefreshStateTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.h; sourceTree = "<group>"; };
+		7F6B731F0345A83F29FA4720E68145B4 /* LNVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoPlayer.m; path = LNVideoModule/Classes/Feature/Player/LNVideoPlayer.m; sourceTree = "<group>"; };
 		80111A0434742F5DC25EB8E34DA0149B /* LNHashTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNHashTable.h; path = LNCommonKit/Classes/Foundation/LNHashTable.h; sourceTree = "<group>"; };
 		80E784BBEDE09E5DF2C959EEE32564BB /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		80EAEA36F9F893D6EC8C9C906241A0D6 /* LNNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNNetworkManager.m; path = LNCommonKit/Classes/Network/Core/LNNetworkManager.m; sourceTree = "<group>"; };
@@ -789,7 +791,6 @@
 		9278AA2C6997E84F437E1E4404C36370 /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
 		933FF1BC471D00B41EB82B3C906D2394 /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
 		93D90B21C60870604AB7E6296E149061 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		947DECD15A30788145C9BE40DE2529B2 /* LNVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoPlayer.h; sourceTree = "<group>"; };
 		950001FFDF1D12EF78BD3146981E5CB6 /* Pods-LNVideoModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNVideoModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		9565E6ADEF10524BD81EDA382436CE64 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
 		95C45E6E1F10085497D573416405B5A6 /* UIColor+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Custom.h"; path = "LNCommonKit/Classes/CustomUIKit/UIColor+Custom.h"; sourceTree = "<group>"; };
@@ -803,14 +804,13 @@
 		974179D3A24F3230BB301AE35E7C2383 /* LNBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNBaseTableViewController.m; path = LNCommonKit/Classes/Base/TableVC/LNBaseTableViewController.m; sourceTree = "<group>"; };
 		97AFF2E6948EDE38A0370E6CF94222E3 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		98779925604DDD3D8D41B4E6DB77BAA5 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
-		98FD3510A568BF5E4ADE95A9BDBCEFB1 /* LNVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoPlayer.m; sourceTree = "<group>"; };
+		98FFC17A116DBB31B6D5844853C54940 /* LNVideoFocusTableViewControler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoFocusTableViewControler.m; path = LNVideoModule/Classes/Feature/Focus/LNVideoFocusTableViewControler.m; sourceTree = "<group>"; };
 		992B82E768F6FCBA6B60098714202FBD /* LNConsttant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNConsttant.h; path = LNCommonKit/Classes/Consttant/LNConsttant.h; sourceTree = "<group>"; };
 		99CB7472A765399A3EB989A79285561F /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
 		99E093D1B9FAFF786519266313E47D2E /* LNVideoModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LNVideoModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B42E8C79A3A5EC8CD7DBC6530F35B53 /* LNAFNetworkingHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNAFNetworkingHTTPClient.m; path = LNCommonKit/Classes/Network/AFHTTPClient/LNAFNetworkingHTTPClient.m; sourceTree = "<group>"; };
 		9B6CF40FBE7B35DE3D0BFEC4C6857B69 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
 		9C5CBFFCA1EE47654E0194A5BE2EFF1E /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
-		9D2416C5FB46B14ED38E43BFAAFC8D8A /* LNVideoFocusListProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoFocusListProvider.h; sourceTree = "<group>"; };
 		9D60242789951D68C06827407F2D1427 /* LNModuleProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LNModuleProtocol-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9F99104ABF03AB96AD6AE882983D2E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -825,7 +825,6 @@
 		9FC25192126AB97D09388A42F186C3E4 /* LNModuleProtocol-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LNModuleProtocol-Info.plist"; sourceTree = "<group>"; };
 		A00552FEFAB0876D3C816A766FF71B44 /* LNSafeMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNSafeMutableDictionary.m; path = LNCommonKit/Classes/Foundation/LNSafeMutableDictionary.m; sourceTree = "<group>"; };
 		A056BD99BDABA3B17C44A41BDF7FE833 /* LNBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNBaseTableViewCell.h; path = LNCommonKit/Classes/Base/TableVC/LNBaseTableViewCell.h; sourceTree = "<group>"; };
-		A06D1E614C7B76E5123869991B3E3BD2 /* LNVideoFocusTableViewControler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoFocusTableViewControler.h; sourceTree = "<group>"; };
 		A12B60E05A18422D4528DF4DC5D547FA /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		A12D30F7E7AAD3128937EEAAD60033B0 /* LNBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNBaseNavigationController.m; path = LNCommonKit/Classes/Base/BaseVC/LNBaseNavigationController.m; sourceTree = "<group>"; };
 		A13BB471CCB313623AC2C15E44ED9B2D /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
@@ -842,7 +841,6 @@
 		A955A87BCD342C98C4E5572F9C7F10DD /* LNBaseDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNBaseDataProvider.h; path = LNCommonKit/Classes/Base/Provider/LNBaseDataProvider.h; sourceTree = "<group>"; };
 		A9611046593D51E4FACC9B2258CCF76F /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
 		A9DAED82E002B8390A2F9500E35E0990 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
-		A9F2BFE7511A53E5EDDA17652B93145A /* LNVideoRecommendListProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoRecommendListProvider.h; sourceTree = "<group>"; };
 		AC8A7C1095E80CA7B5B4CAA9C2D09260 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		AC9A926FD10541EE63F54B9ABA5B0B6F /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
 		ACB38595820D3FFEB3B99CA8C79FD5E6 /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/Core/SDAnimatedImageRep.m; sourceTree = "<group>"; };
@@ -870,6 +868,7 @@
 		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAED75FDD37F8A1EFCC707AA40AF0E08 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		BB17515AB476DEA48840B9342C452484 /* LNLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNLogger.m; path = LNCommonKit/Classes/Log/LNLogger.m; sourceTree = "<group>"; };
+		BB913E5C2018C8B92089D0F8A281E0C4 /* LNVideoRecommendListProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoRecommendListProvider.h; path = LNVideoModule/Classes/Feature/Recommend/LNVideoRecommendListProvider.h; sourceTree = "<group>"; };
 		BC0A0E10583E2510D8CFB19BFF8F359A /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		BC35B1BABF9419B03402C5C3E678AC82 /* LNCustomUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNCustomUIKit.h; path = LNCommonKit/Classes/CustomUIKit/LNCustomUIKit.h; sourceTree = "<group>"; };
 		BD4E2E3050880621FEA694A59905B989 /* LNCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNCommonKit-umbrella.h"; sourceTree = "<group>"; };
@@ -887,7 +886,9 @@
 		C433A0202A3844483A2C14BDE2AEF5B1 /* LNModuleProtocol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LNModuleProtocol.modulemap; sourceTree = "<group>"; };
 		C4717DAE6EFCD1F1E940A4A2340180C7 /* LNAFNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNAFNetworkConfig.m; path = LNCommonKit/Classes/Network/AFHTTPClient/LNAFNetworkConfig.m; sourceTree = "<group>"; };
 		C4A518A0ACCA4D6519CB0FFFE77F4803 /* LNLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNLogger.h; path = LNCommonKit/Classes/Log/LNLogger.h; sourceTree = "<group>"; };
+		C621067180DC11D70D00851732C752CA /* LNVideoFocusTableViewControler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoFocusTableViewControler.h; path = LNVideoModule/Classes/Feature/Focus/LNVideoFocusTableViewControler.h; sourceTree = "<group>"; };
 		C6D9ED37B3261E7D280B2931A306F6CE /* LNCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LNCommonKit-Info.plist"; sourceTree = "<group>"; };
+		C7A2167382691B2B28DDF7947A237CA4 /* LNVideoRecommendListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoRecommendListController.m; path = LNVideoModule/Classes/Feature/Recommend/LNVideoRecommendListController.m; sourceTree = "<group>"; };
 		C81C65D5B244DB6C7FB55D5758DB64FD /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
 		C9022EF888BFCE9072A40947A3B97953 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		C987735486679FF0040BCAEB7BDB457E /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
@@ -900,7 +901,6 @@
 		CEE6B5F60053B46FEE9ACA6058D90E5F /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		CEFF1B4DDDADB23239FDD1946669F8FC /* Pods-LNVideoModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNVideoModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CFF032EA787ADB40C634A8798975FD2B /* LNVideoModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNVideoModule-prefix.pch"; sourceTree = "<group>"; };
-		D0B9835E4ED4DF8385A863E8F7A03D87 /* LNVideoRecommendListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNVideoRecommendListController.h; sourceTree = "<group>"; };
 		D21EB3C371E16EBCDD91BA0072A4FC71 /* LNVideoNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoNetworkConfig.m; path = LNVideoModule/Classes/Network/LNVideoNetworkConfig.m; sourceTree = "<group>"; };
 		D283E7C998DF601DD8FED9773B36BC58 /* LNModuleCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNModuleCore-prefix.pch"; sourceTree = "<group>"; };
 		D29CBBCF07A8969457587AE8B5785D1B /* LNWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNWeakProxy.m; path = LNCommonKit/Classes/Foundation/LNWeakProxy.m; sourceTree = "<group>"; };
@@ -928,6 +928,7 @@
 		DDB20D1E58460DC2E81430CCAAEDE160 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		DDEB99C5F677B1B3911862859E8341F6 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		DE4E757578BD77720190D7EAB2893CF2 /* UIScreen+LNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+LNUIKit.h"; path = "LNCommonKit/Classes/CustomUIKit/UIScreen+LNUIKit.h"; sourceTree = "<group>"; };
+		DE5BDD27AD3D400C2BBDF850AB2750E0 /* LNVideoTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoTableViewCell.m; path = LNVideoModule/Classes/Feature/Base/LNVideoTableViewCell.m; sourceTree = "<group>"; };
 		DE75BB08FB750561399B5BB3062EA566 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
 		DF625CD99DA7A9B32E9FB9E322B96F0F /* LNConsttant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNConsttant.m; path = LNCommonKit/Classes/Consttant/LNConsttant.m; sourceTree = "<group>"; };
 		DF980C3874A8FC418CAC9FC7DA353167 /* LNVideoMediatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoMediatorDelegate.h; path = LNVideoModule/Classes/Common/LNVideoMediatorDelegate.h; sourceTree = "<group>"; };
@@ -940,7 +941,6 @@
 		E4D537D5B3DA0A07C1454D9172649DEF /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
 		E4DB9CDF3539544BDD101382F677ECB1 /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
 		E56FF09928404418BB2084090472C613 /* UIViewController+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Router.m"; path = "LNCommonKit/Classes/Router/UIViewController+Router.m"; sourceTree = "<group>"; };
-		E5A14B9858DB1256D8B22BA4CEC072E9 /* LNVideoFocusTableViewControler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoFocusTableViewControler.m; sourceTree = "<group>"; };
 		E5BEA5829D63E395F38A71E224893068 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
 		E682D285B5F710B48E797A84D4E5B07C /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		E728A5AB5F055D83FDAF0083608BE85D /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
@@ -949,7 +949,6 @@
 		E85886A2F1E827D81D1D1FB6E764B7AF /* SDImageAWebPCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAWebPCoder.m; path = SDWebImage/Core/SDImageAWebPCoder.m; sourceTree = "<group>"; };
 		E8CE4CAEF472E9A4DB0DD007C6B1B739 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
 		E954F1C7A3FE784717CD33DE5C90565C /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		E9E7793512AB48356843EF43A241E869 /* LNVideoRecommendListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNVideoRecommendListController.m; sourceTree = "<group>"; };
 		EA246DD4216E59E282ECB975A3959B4D /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		EAEE5D9ADA9E78C0DA6C500F57ABD825 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
 		EB04F2E5EBB89BDD1801659F6ACB462D /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
@@ -975,6 +974,7 @@
 		F5A4BA439ECA626D7849A0BD07AC2A0A /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
 		F5A888E0285797096BF0BB5B89AD11A8 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		F5C67A010CCEB42C80F9D392587EDD99 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		F64DE326C6F42C61DE4B1012930C37F9 /* LNVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNVideoPlayerViewController.m; path = LNVideoModule/Classes/Feature/Player/LNVideoPlayerViewController.m; sourceTree = "<group>"; };
 		F71D9F71CE809D5D8AB523FC958CEAA8 /* LNBaseListDataProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNBaseListDataProvider.m; path = LNCommonKit/Classes/Base/Provider/LNBaseListDataProvider.m; sourceTree = "<group>"; };
 		F840733FD9FE8010C4B509FB3E2ECE15 /* LNBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNBaseViewController.m; path = LNCommonKit/Classes/Base/BaseVC/LNBaseViewController.m; sourceTree = "<group>"; };
 		F91BC2CDAE56ED5C2C8615C2CAF68288 /* Pods-LNVideoModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LNVideoModule_Tests.modulemap"; sourceTree = "<group>"; };
@@ -1190,16 +1190,6 @@
 			path = "Target Support Files/Pods-LNVideoModule_Tests";
 			sourceTree = "<group>";
 		};
-		1B4DF9843246A5847C1A86C05977D9B9 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				1150A1F05122F02D1DD7EADE6E0935FE /* LNVideoTableViewCell.h */,
-				31AE16363488FB2FA9C6DDA36696EDCD /* LNVideoTableViewCell.m */,
-			);
-			name = Base;
-			path = LNVideoModule/Classes/Feature/Base;
-			sourceTree = "<group>";
-		};
 		21BA44A2C95ED15B397E29148B6666CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1289,6 +1279,17 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		3B8158C37629BAF20ED60208B9260877 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				47A52AA8799D8DE0073A0CD46BD5111B /* LNVideoRecommendListController.h */,
+				C7A2167382691B2B28DDF7947A237CA4 /* LNVideoRecommendListController.m */,
+				BB913E5C2018C8B92089D0F8A281E0C4 /* LNVideoRecommendListProvider.h */,
+				6DEE36A99CA360BFE315BBD90EE384FA /* LNVideoRecommendListProvider.m */,
+			);
+			name = Recommend;
+			sourceTree = "<group>";
+		};
 		3C461D7850FF02F445BD3B26BD7AC06F /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -1313,6 +1314,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LNVideoModule";
+			sourceTree = "<group>";
+		};
+		40801FD24C956A0DDB0A94FB894AFDFF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5D7C40FD8DEAA1797E5A7F32AFDB0489 /* LNVideoTableViewCell.h */,
+				DE5BDD27AD3D400C2BBDF850AB2750E0 /* LNVideoTableViewCell.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		42FD833BF57E09A8040B64E9395DFFF7 /* UIKit */ = {
@@ -1373,6 +1383,17 @@
 			name = Mediator;
 			sourceTree = "<group>";
 		};
+		5CF4496BA51CD5DD9C7A4190E669177C /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				0BDDCEFCD1E18635711B407FCF8E3355 /* LNVideoFocusListProvider.h */,
+				6B1A1F0597F9F7DD6B757B442C69A64E /* LNVideoFocusListProvider.m */,
+				C621067180DC11D70D00851732C752CA /* LNVideoFocusTableViewControler.h */,
+				98FFC17A116DBB31B6D5844853C54940 /* LNVideoFocusTableViewControler.m */,
+			);
+			name = Focus;
+			sourceTree = "<group>";
+		};
 		5D1314D4DE56314D15304A9107ED8CBE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1390,18 +1411,6 @@
 				DF625CD99DA7A9B32E9FB9E322B96F0F /* LNConsttant.m */,
 			);
 			name = Consttant;
-			sourceTree = "<group>";
-		};
-		6C034F1F55759CC88D2633B7F0678802 /* Player */ = {
-			isa = PBXGroup;
-			children = (
-				947DECD15A30788145C9BE40DE2529B2 /* LNVideoPlayer.h */,
-				98FD3510A568BF5E4ADE95A9BDBCEFB1 /* LNVideoPlayer.m */,
-				7C576A57EC8EA83A40DE68126414CF88 /* LNVideoPlayerViewController.h */,
-				7EA746D1B7092D0C85C851DCAF3C4AF1 /* LNVideoPlayerViewController.m */,
-			);
-			name = Player;
-			path = LNVideoModule/Classes/Feature/Player;
 			sourceTree = "<group>";
 		};
 		6CF6EA43BFC56F2D3BF2CB7CC7ACF80A /* Targets Support Files */ = {
@@ -1484,7 +1493,7 @@
 				14AFE0DDF610173240140B79B65CC3B9 /* ReplaceMe.m */,
 				04F100DEE726F2A0F473E0EEB435D295 /* Common */,
 				3C461D7850FF02F445BD3B26BD7AC06F /* Data */,
-				D8C9F0ADE420D388D0A73ED06B3ADE65 /* Feature */,
+				9A924B407405613D4150BD78EAACB87A /* Feature */,
 				529E3C40A92DA8509BB55BA01725D116 /* Mediator */,
 				16F8F972485D8F54D4EAC152559D3933 /* Network */,
 				0438CE6687F4F0ADF67D6F4865EC192A /* Pod */,
@@ -1536,6 +1545,17 @@
 				392DE6AFC0494F6EF146C172DD5B9311 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		9A924B407405613D4150BD78EAACB87A /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				40801FD24C956A0DDB0A94FB894AFDFF /* Base */,
+				5CF4496BA51CD5DD9C7A4190E669177C /* Focus */,
+				A61FBEBF65E097B5C7488B03FF95D12E /* Player */,
+				3B8158C37629BAF20ED60208B9260877 /* Recommend */,
+			);
+			name = Feature;
 			sourceTree = "<group>";
 		};
 		9B7EF62F8193F8585967A718A4C489A8 /* DataModel */ = {
@@ -1755,6 +1775,17 @@
 			name = ImgLoopScroll;
 			sourceTree = "<group>";
 		};
+		A61FBEBF65E097B5C7488B03FF95D12E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				430B3CD104489BACD44AFF3BB21BEC72 /* LNVideoPlayer.h */,
+				7F6B731F0345A83F29FA4720E68145B4 /* LNVideoPlayer.m */,
+				4239606309549FF16DE0F6E3C2C7BDC9 /* LNVideoPlayerViewController.h */,
+				F64DE326C6F42C61DE4B1012930C37F9 /* LNVideoPlayerViewController.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
 		A74EA2D784430D9F3A2263D6F7ADBD87 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1792,18 +1823,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LNCommonKit";
-			sourceTree = "<group>";
-		};
-		B2BE0F43EED64F24B216C97688ED8B1C /* Recommend */ = {
-			isa = PBXGroup;
-			children = (
-				D0B9835E4ED4DF8385A863E8F7A03D87 /* LNVideoRecommendListController.h */,
-				E9E7793512AB48356843EF43A241E869 /* LNVideoRecommendListController.m */,
-				A9F2BFE7511A53E5EDDA17652B93145A /* LNVideoRecommendListProvider.h */,
-				74DC635805F562B27886601B00C0ED0F /* LNVideoRecommendListProvider.m */,
-			);
-			name = Recommend;
-			path = LNVideoModule/Classes/Feature/Recommend;
 			sourceTree = "<group>";
 		};
 		C198BB4995DA396C4CEB8B90EFED4DE7 /* Products */ = {
@@ -1873,17 +1892,6 @@
 			path = "../Target Support Files/JSONModel";
 			sourceTree = "<group>";
 		};
-		D8C9F0ADE420D388D0A73ED06B3ADE65 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				1B4DF9843246A5847C1A86C05977D9B9 /* Base */,
-				E6DF61BA083FBB8F78DB28B7F83CAAF1 /* Focus */,
-				6C034F1F55759CC88D2633B7F0678802 /* Player */,
-				B2BE0F43EED64F24B216C97688ED8B1C /* Recommend */,
-			);
-			name = Feature;
-			sourceTree = "<group>";
-		};
 		DCFAF32E73C59B70721EE507E9C4C7D4 /* CustomUIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1920,18 +1928,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LNModuleProtocol";
-			sourceTree = "<group>";
-		};
-		E6DF61BA083FBB8F78DB28B7F83CAAF1 /* Focus */ = {
-			isa = PBXGroup;
-			children = (
-				9D2416C5FB46B14ED38E43BFAAFC8D8A /* LNVideoFocusListProvider.h */,
-				18675AC4E574D73710DCF364C312A89B /* LNVideoFocusListProvider.m */,
-				A06D1E614C7B76E5123869991B3E3BD2 /* LNVideoFocusTableViewControler.h */,
-				E5A14B9858DB1256D8B22BA4CEC072E9 /* LNVideoFocusTableViewControler.m */,
-			);
-			name = Focus;
-			path = LNVideoModule/Classes/Feature/Focus;
 			sourceTree = "<group>";
 		};
 		ED4B4E95B90FB626121CD73B1B904F5C /* BaseVC */ = {
@@ -2036,25 +2032,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24F797E215681A06B2D8381B6B7D5E18 /* Headers */ = {
+		128DDE24E69A47A013A692929DF5F15A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7646E2EA184EF827A7A3150130139597 /* LNVideoFocusListProvider.h in Headers */,
-				6968BBADCDC6B72CA29BF915ABF35AB2 /* LNVideoFocusTableViewControler.h in Headers */,
-				354FDDDF6FFF27C53D04DEFFDA95073A /* LNVideoMediator.h in Headers */,
-				D98EEF38B7A53859B4FA72F381770158 /* LNVideoMediatorDelegate.h in Headers */,
-				2C455C49EF0CB415D88431048AFB0DDE /* LNVideoModel.h in Headers */,
-				A4985A983389FC00F6D5690D0D130252 /* LNVideoModule.h in Headers */,
-				256616D726D306116A36C19147520A94 /* LNVideoModule-umbrella.h in Headers */,
-				1926216389540B126E7583A426863F75 /* LNVideoModuleConfig.h in Headers */,
-				CE367F18C72792506DF3B3C66D9FFF85 /* LNVideoNetworkConfig.h in Headers */,
-				F9F81EF0BE23D20127182757226AD77D /* LNVideoPlayer.h in Headers */,
-				2E8F1639ED59A0BC83D7D970812C5F61 /* LNVideoPlayerViewController.h in Headers */,
-				DA41FC86D5335C34B51454E0B9ABE754 /* LNVideoRecommendListController.h in Headers */,
-				990057F5BF9BCF9E9F947091710CAA37 /* LNVideoRecommendListProvider.h in Headers */,
-				87A000D20E710B3F22BA21CE751093EB /* LNVideoTableViewCell.h in Headers */,
-				93D5A8ECE6956A641E65083A3EB2505F /* LNVideoUserModel.h in Headers */,
+				89C55D03F21C76496A41A02A5103E994 /* LNVideoFocusListProvider.h in Headers */,
+				BBAC0FA5A4C6F803A04C14307541C3C0 /* LNVideoFocusTableViewControler.h in Headers */,
+				08AE550DF4A82CAAE75A1B4635C3E249 /* LNVideoMediator.h in Headers */,
+				CE52240E61C2E511606E2543D4F58C2E /* LNVideoMediatorDelegate.h in Headers */,
+				D477D612CB8E2641DB8E81AC9772C540 /* LNVideoModel.h in Headers */,
+				A300BA85F42B470055A55359C540CDB7 /* LNVideoModule.h in Headers */,
+				73235277A11B66B7F094A57B2C96E98A /* LNVideoModule-umbrella.h in Headers */,
+				F0BD6E58011F4C570416AD661D9AAF9E /* LNVideoModuleConfig.h in Headers */,
+				A9B8DB7DEE31F17EF1339D15B011469B /* LNVideoNetworkConfig.h in Headers */,
+				8596589E3F445BDF4D819066AD4F0613 /* LNVideoPlayer.h in Headers */,
+				3A1DC368CA69F9CB5D3C8C6731435346 /* LNVideoPlayerViewController.h in Headers */,
+				D9F3A2C05246A2F2048AA2864D04B555 /* LNVideoRecommendListController.h in Headers */,
+				1DB6F750D037C04B0CF433604AD0862E /* LNVideoRecommendListProvider.h in Headers */,
+				43039EC26A2585845BA08303A2CA9738 /* LNVideoTableViewCell.h in Headers */,
+				AFC9570FCFC40D0BDC2FB9E38CF8E080 /* LNVideoUserModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2405,8 +2401,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7F6552DD74650A20D61CD9B46EEDCB7 /* Build configuration list for PBXNativeTarget "LNVideoModule" */;
 			buildPhases = (
-				24F797E215681A06B2D8381B6B7D5E18 /* Headers */,
-				DC4347F9F2F8E32B42C9B75DF0D39BA7 /* Sources */,
+				128DDE24E69A47A013A692929DF5F15A /* Headers */,
+				77E947653BD319E820E51EDF1D9D117A /* Sources */,
 				8F2A759EE1E49C8930FDABD6E192A56E /* Frameworks */,
 				06CC6385F5EE61B073398F315DB36ECF /* Resources */,
 			);
@@ -2698,6 +2694,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77E947653BD319E820E51EDF1D9D117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EE747300A6963CDFE634AA59A14CA3 /* LNVideoFocusListProvider.m in Sources */,
+				733BFB548314A0E18152D55CC09D3ED2 /* LNVideoFocusTableViewControler.m in Sources */,
+				190770C472E26E4B6C804FCED2454E42 /* LNVideoMediator.m in Sources */,
+				876C1102724CAB1D685AE53C09CFF5DA /* LNVideoModel.m in Sources */,
+				6C4F6B9AFE6640E2C695510FC29FAA60 /* LNVideoModule.m in Sources */,
+				752ED56DD228FF8AA53499ABAB5FB99A /* LNVideoModule-dummy.m in Sources */,
+				6749612D0AEA0EA882BAB000C6541A5A /* LNVideoModuleConfig.m in Sources */,
+				857C259EA713322036E4C03EDDFA337D /* LNVideoNetworkConfig.m in Sources */,
+				DDCD0F3082764869BE1FD93EFC0A828E /* LNVideoPlayer.m in Sources */,
+				A4AA701D80618010DDFD9B614AA2D08D /* LNVideoPlayerViewController.m in Sources */,
+				70A82268972EA6F533B6ED4FE462FDA0 /* LNVideoRecommendListController.m in Sources */,
+				954820B895D037E774BBA33465A48EA3 /* LNVideoRecommendListProvider.m in Sources */,
+				AE20CE504DDE1D22470B59D1433794F7 /* LNVideoTableViewCell.m in Sources */,
+				D810852E0BD8CE3092022EDCAD24DFC7 /* LNVideoUserModel.m in Sources */,
+				ADD5D47061C88A7EC6D81DC17C4C72EC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		954C67D42590E6708B6858269FA5229D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2852,28 +2870,6 @@
 				6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */,
 				AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */,
 				657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC4347F9F2F8E32B42C9B75DF0D39BA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EC8802DAFF334C1087A6DFD6F1DDA74 /* LNVideoFocusListProvider.m in Sources */,
-				3712311E2A14B93FC75E0154224621C2 /* LNVideoFocusTableViewControler.m in Sources */,
-				0D6D4BBD5ED0F41D9E578517632E1AD5 /* LNVideoMediator.m in Sources */,
-				FA10B97A8154CD9B1FB1B8CE44313122 /* LNVideoModel.m in Sources */,
-				2B2A7F6939E2EA45E81B2C0430600B82 /* LNVideoModule.m in Sources */,
-				7746F841971B6473C3D00A3A0D0A020F /* LNVideoModule-dummy.m in Sources */,
-				6AF7AF93EDA5DB532FE6D21AB721CD69 /* LNVideoModuleConfig.m in Sources */,
-				6980D78B013B86C871BED8AE1762B598 /* LNVideoNetworkConfig.m in Sources */,
-				8B233216759B3780FA5C2DCBD15BA94E /* LNVideoPlayer.m in Sources */,
-				EA2756B56EDD377D0ADFF052EE42B896 /* LNVideoPlayerViewController.m in Sources */,
-				98EF48DE8ED6A651610F7A82ACCD72F6 /* LNVideoRecommendListController.m in Sources */,
-				9F89F6E7C310E26B11477B179C1C6AF0 /* LNVideoRecommendListProvider.m in Sources */,
-				1E15B70D1491CFF6E526E6AA53346512 /* LNVideoTableViewCell.m in Sources */,
-				AEBBA875BAD0C0740179EA7D906EA91B /* LNVideoUserModel.m in Sources */,
-				7667934ED8F1A6AD84A5F3588EA3CA3C /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
