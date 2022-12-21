@@ -3,7 +3,7 @@
   "version": "0.1.3",
   "summary": "视频组件",
   "description": "视频组件，开发和维护视频相关的功能",
-  "homepage": "https://github.com/NoNameOrganazation/LNVideoModule",
+  "homepage": "https://github.com/LNOrganization/LNVideoModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "dongjianxiong": "jianxiong20090919@126.com"
   },
   "source": {
-    "git": "https://github.com/NoNameOrganazation/LNVideoModule.git",
+    "git": "https://github.com/LNOrganization/LNVideoModule.git",
     "tag": "0.1.3"
   },
   "platforms": {
@@ -38,6 +38,11 @@
       "public_header_files": "LNVideoModule/Classes/Common/*.h"
     },
     {
+      "name": "Data",
+      "source_files": "LNVideoModule/Classes/Data/**/*",
+      "public_header_files": "LNVideoModule/Classes/Data/*.h"
+    },
+    {
       "name": "Network",
       "source_files": "LNVideoModule/Classes/Network/**/*",
       "public_header_files": "LNVideoModule/Classes/Network/*.h"
@@ -51,6 +56,9 @@
 
         ],
         "LNVideoModule/Network": [
+
+        ],
+        "LNVideoModule/Data": [
 
         ]
       }

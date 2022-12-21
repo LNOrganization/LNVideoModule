@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   视频组件，开发和维护视频相关的功能
                        DESC
 
-  s.homepage         = 'https://github.com/NoNameOrganazation/LNVideoModule'
+  s.homepage         = 'https://github.com/LNOrganization/LNVideoModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dongjianxiong' => 'jianxiong20090919@126.com' }
-  s.source           = { :git => 'https://github.com/NoNameOrganazation/LNVideoModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LNOrganization/LNVideoModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -36,6 +36,11 @@ Pod::Spec.new do |s|
   s.subspec 'Common' do |com|
     com.source_files = 'LNVideoModule/Classes/Common/**/*'
     com.public_header_files = 'LNVideoModule/Classes/Common/*.h'
+  end
+  
+  s.subspec 'Data' do |com|
+    com.source_files = 'LNVideoModule/Classes/Data/**/*'
+    com.public_header_files = 'LNVideoModule/Classes/Data/*.h'
   end
   
   s.subspec 'Network' do |network|
@@ -51,6 +56,7 @@ Pod::Spec.new do |s|
 #    }
     feature.dependency 'LNVideoModule/Common'
     feature.dependency 'LNVideoModule/Network'
+    feature.dependency 'LNVideoModule/Data'
   end
   
   s.subspec 'Mediator' do |mediator|

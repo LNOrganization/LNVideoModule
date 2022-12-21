@@ -5,7 +5,7 @@
 //  Created by Lenny on 2022/12/10.
 //
 
-#import <LNCommonKit/LNCommonKit.h>
+#import <LNCommonKit/LNBaseTableViewCell.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
